@@ -4,7 +4,7 @@
   "description": "C++ mt19937 random generator wrapper for Node.js. Edit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha test"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/BoogeeDoo/mt19937#readme",
   "dependencies": {
     "nan": "^2.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.1.0"
   }
 }

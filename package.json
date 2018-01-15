@@ -1,0 +1,26 @@
+{
+  "name": "mt-19937",
+  "version": "1.0.0",
+  "description": "C++ mt19937 random generator wrapper for Node.js. Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoogeeDoo/mt19937.git"
+  },
+  "keywords": [
+    "mt19937",
+    "random"
+  ],
+  "author": "XadillaX <i@2333.moe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BoogeeDoo/mt19937/issues"
+  },
+  "homepage": "https://github.com/BoogeeDoo/mt19937#readme",
+  "dependencies": {
+    "nan": "^2.8.0"
+  }
+}

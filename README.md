@@ -1,19 +1,19 @@
-# mt19937
+# @crand/mt19937
 
 C++ [mt19937 random generator](http://en.cppreference.com/w/cpp/numeric/random/mersenne_twister_engine) wrapper for Node.js.
 
 ## Installation
 
 ```console
-$ npm install --save mt-19937
+$ npm install --save @crand/mt19937
 ```
 
 ## Usage
 
-First you should create an mt-19937 Object:
+First you should create an mt19937 Object:
 
 ```javascript
-const Mt19937 = require('mt-19937');
+const Mt19937 = require('@crand/mt19937');
 const rand = new Mt19937(seed);
 ```
 
@@ -39,6 +39,8 @@ Constructor of `Mt19937` class.
 
 ### `Mt19937.prototype.next()`
 
+Generate next random number.
+
 #### Parameters
 
 None.
@@ -46,6 +48,18 @@ None.
 #### Return
 
 The random number.
+
+### `Mt19937.prototype.destroy()`
+
+Destroy the generator.
+
+#### Parameters
+
+None.
+
+#### Return
+
+None.
 
 ## Contribution
 

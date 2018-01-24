@@ -1,7 +1,7 @@
 {
-  "name": "mt-19937",
+  "name": "@crand/mt19937",
   "version": "1.0.0",
-  "description": "C++ mt19937 random generator wrapper for Node.js. Edit",
+  "description": "C++ mt19937 random generator wrapper for Node.js.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test"
@@ -20,9 +20,6 @@
     "url": "https://github.com/BoogeeDoo/mt19937/issues"
   },
   "homepage": "https://github.com/BoogeeDoo/mt19937#readme",
-  "dependencies": {
-    "nan": "^2.8.0"
-  },
   "devDependencies": {
     "mocha": "^4.1.0"
   }

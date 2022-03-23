@@ -1,5 +1,9 @@
 # @crand/mt19937
 
+[![npm (scoped)](https://img.shields.io/npm/v/@crand/mt19937)](https://npmjs.org/package/@crand/mt19937)
+[![Node.js CI](https://github.com/BoogeeDoo/mt19937/actions/workflows/node.js.yml/badge.svg)](https://github.com/BoogeeDoo/mt19937/actions/workflows/node.js.yml)
+[![Libraries.io dependency status for latest release, scoped npm package](https://img.shields.io/librariesio/release/npm/@crand/mt19937)](https://npmjs.org/package/@crand/mt19937)
+
 C++ [mt19937 random generator](http://en.cppreference.com/w/cpp/numeric/random/mersenne_twister_engine) wrapper for Node.js.
 
 ## Installation

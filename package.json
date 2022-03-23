@@ -4,6 +4,12 @@
   "description": "C++ mt19937 random generator wrapper for Node.js.",
   "main": "index.js",
   "scripts": {
+    "clang-format": "./scripts/clang_format.js --style=file -i ./src/19937.cc",
+    "cpplint": "./tools/cpplint/cpplint.py src/*",
+    "eslint": "eslint .",
+    "lint": "npm run eslint && npm run cpplint",
+    "postinstall": "node scripts/postinstall.js",
+    "prepublishOnly": "make js",
     "test": "./node_modules/.bin/mocha test"
   },
   "repository": {
@@ -21,6 +27,15 @@
   },
   "homepage": "https://github.com/BoogeeDoo/mt19937#readme",
   "devDependencies": {
-    "mocha": "^4.1.0"
-  }
+    "clang-format": "^1.6.0",
+    "eslint": "^8.11.0",
+    "eslint-config-egg": "^11.0.1",
+    "mocha": "^4.1.0",
+    "semver": "^7.3.5"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "index.js"
+  ]
 }

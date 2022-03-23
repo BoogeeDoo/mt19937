@@ -20,8 +20,8 @@ const rand = new Mt19937(seed);
 Then you can generate random numbers via `.next()`:
 
 ```javascript
-for(let i = 0; i < 100; i++) {
-    console.log(rand.next());
+for (let i = 0; i < 100; i++) {
+  console.log(rand.next());
 }
 ```
 
@@ -63,4 +63,4 @@ None.
 
 ## Contribution
 
-You're welcome to make Pull Requests.
+Issues and PRs are welcomed.

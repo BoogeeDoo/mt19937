@@ -9,6 +9,7 @@ js: src/19937.cc
 			'_Generate', \
 			'_FreeRand' \
 		]" \
+		-s WASM=0 \
 		-s WASM_ASYNC_COMPILATION=0 && echo 'WebAssembly done.'
 
 test:

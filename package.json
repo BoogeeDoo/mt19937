@@ -9,7 +9,7 @@
     "eslint": "eslint .",
     "lint": "npm run eslint && npm run cpplint",
     "postinstall": "node scripts/postinstall.js",
-    "prepublishOnly": "make js",
+    "prepublishOnly": "mkdir -p dist && make js",
     "test": "./node_modules/.bin/mocha test"
   },
   "repository": {

@@ -16,8 +16,3 @@ if (!fs.existsSync(path.join(__dirname, '../dist/19937.js'))) {
     cwd: path.join(__dirname, '..'),
   });
 }
-
-if (fs.existsSync(path.join(__dirname, '../dist/19937.wasm'))) {
-  console.log('Deleting 19937.wasm...');
-  fs.rmSync(path.join(__dirname, '../dist/19937.wasm'));
-}

@@ -1,1 +1,4 @@
 dist/*
+
+# Added by GitHub Action.
+emsdk-cache

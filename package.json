@@ -37,6 +37,8 @@
     "dist",
     "lib",
     "index.js",
-    "scripts/postinstall.js"
-  ]
+    "scripts/postinstall.js",
+    "index.d.ts"
+  ],
+  "types": "index.d.ts"
 }

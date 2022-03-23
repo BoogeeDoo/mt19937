@@ -1,6 +1,6 @@
 {
   "name": "@crand/mt19937",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "C++ mt19937 random generator wrapper for Node.js.",
   "main": "index.js",
   "scripts": {

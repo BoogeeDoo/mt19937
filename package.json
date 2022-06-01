@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/BoogeeDoo/mt19937#readme",
   "devDependencies": {
-    "clang-format": "^1.7.0",
+    "clang-format": "^1.8.0",
     "eslint": "^8.11.0",
     "eslint-config-egg": "^11.0.1",
     "mocha": "^9.2.2",
